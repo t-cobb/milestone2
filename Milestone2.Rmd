@@ -6,25 +6,32 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Project 1: https://andres-deloera.shinyapps.io/ACO_Exploration/
+  
+  Pros:  
+  - Wonderful problem framing and introductory visualizations that pull the viewer into the story in a compelling way. 
+  - I like that the insights are shared up front on the opening page. This encourages us to think critically about the data they're presenting.
+  - The design is simple but effective
+  
+  Cons: 
+  - Many of the measures on the axis are in "-4e+07" format which means nothing to me
+  - Some of the drop downs have too many options, without resulting changes in the visualizations. More focus on quality rather than quantity would be preferrable. 
+  
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Project 2: https://salomegarnier.shinyapps.io/sex_education_health/
+  
+  Pros: 
+  - Topic is compelling
+  - I like that the data tables are provided so we can examine this in raw(ish) format
+  - Clear models which are described well and also stand alone. Nice selection and about the right quantity to quality ratio.
+  
+  Cons:
+  - Homepage layout is confusing and non-intuitive
+  - Questionable color choices 
+  - Much of the work seems to have been done in the wrangling phase: I would have liked to see more analysis and take-aways
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
